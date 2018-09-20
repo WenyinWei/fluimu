@@ -9,3 +9,28 @@ how to build convolutional neural network setups in conjunction with the [tensor
 For more information on how to install, run and code with Mantaflow, please head over to our home page at
 [http://mantaflow.com](http://mantaflow.com)
 
+## How to write a python scene file
+
+### Set solver params
+
+How much of resolution the simulation need to operate?
+
+### Prepare grids
+
+Prepare grids for:
+
+- flags?
+- velocity()
+- density()
+- pressure()
+
+### Set noise field
+
+### Set source
+
+### GUI
+
+Do we need to open GUI? If so, show the GUI.
+
+### Start main loop
+

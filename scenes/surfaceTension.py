@@ -73,7 +73,7 @@ for t in range(1000):
 	
 	if (dim==3):
 		phi.createMesh(mesh)
-		#mesh.save('phi%04d.bobj.gz' % t)
+		mesh.save('output/surfaceTension/phi%04d.bobj.gz' % t)
 	
 	s.step()
 
