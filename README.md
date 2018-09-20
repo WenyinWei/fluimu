@@ -28,9 +28,27 @@ Prepare grids for:
 
 ### Set source
 
+This is a source, which is used for inflow smog.
+
 ### GUI
 
 Do we need to open GUI? If so, show the GUI.
 
 ### Start main loop
+
+```python
+for t in range(250 [Total steps] ):
+    # print out which frame it is 
+    mantaMsg('\nFrame %i' % (s.frame))
+    
+    If there is something getting in our solver, then put it like densityInflow()
+    
+    advectSemiLagrange(flags, vel, grid, order)
+    advectSemiLagrange(flags, vel, grid, order, strength)
+    
+    setWallBcs(flags, vel)
+    addBuoyancy(density, vel, gravity, flags)
+    SolvePressure(flags, vel, pressure)
+    s.step()
+```
 

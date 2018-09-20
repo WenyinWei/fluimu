@@ -142,8 +142,8 @@ for t in range(500):
 	spdDummy.setConst(vec3(1,1,1))
 	
 	# output
-	# surfacePointsDisplaced.save(  'output/surfaceTurbulence/res16/displacedPoints_%04d.uni' % t  );
-	# gui.screenshot( 'output/surfaceTurbulence/img_%04d.png' % t );
+	surfacePointsDisplaced.save(  'output/surfaceTurbulence/res16_displacedPoints_%04d.uni' % t  );
+	gui.screenshot( 'output/surfaceTurbulence/img_%04d.png' % t );
 
 	s.step()
 		
