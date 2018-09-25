@@ -1,4 +1,17 @@
-# Mantaflow #
+# Fluimu
+
+Fluimu is based on several fundamentals of CFD software, including mantaflow, which is a mature product of CFD open-source framework. 
+
+## Aim
+
+Although current softwares have been  mature enough to tackle the engineering problems existing in our daily life. Troubles in plasma physics still obstruct our way of progress.
+
+We need to do the following things:
+
+- Achieve species-level reaction. 
+- Able to solve multiple-scale problems.　
+
+## Mantaflow
 
 Mantaflow is an open-source framework targeted at fluid simulation research in Computer Graphics.
 Its parallelized C++ solver core, python scene definition interface and plugin system allow for quickly prototyping and testing new algorithms. 
